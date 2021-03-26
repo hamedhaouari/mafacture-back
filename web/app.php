@@ -7,7 +7,7 @@ ini_set('display_errors',1);
 ini_set('log_errors', 1);
 ini_set('error_log',  __DIR__ . '/../config/error_log.txt');
 error_reporting(E_ALL);
-$baseurl = "/web/";
+$baseurl = "/mafacture/back/web/";
 require_once __DIR__ . '/../vendor/autoload.php';
 use Symfony\Component\Dotenv\Dotenv;
 
